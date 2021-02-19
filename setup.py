@@ -7,7 +7,9 @@ install_requirements = [
     "nevermined-sdk-py==0.8.0",
     "jupyter~=1.0.0",
     "jupyterlab~=2.2.9",
-    "xain-sdk==0.8.0"
+    "xain-sdk==0.8.0",
+    "pytest~=6.2.2",
+    "papermill~=2.3.2"
 ]
 
 setup(
