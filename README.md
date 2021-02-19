@@ -74,3 +74,8 @@ $ source venv/bin/activate
 $ pip install pip==20.2.4
 ```
 
+3. Install all the dependencies we are going to need for this workshop
+```bash
+$ pip install .
+```
+
