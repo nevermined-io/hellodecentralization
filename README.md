@@ -8,15 +8,15 @@ In this workshop we will be presenting the [Nevermined](nevermined.io) data ecos
 This workshop will be based on the [Credit Card Fraud Detection Demo](https://medium.com/nevermined-io/nevermined-credit-card-fraud-detection-91aef362d98) which we wrote about previously.
 
 - [Hellodecentralization Nevermined Workshop](#hellodecentralization-nevermined-workshop)
-  - [Agenda](#agenda)
-  - [Setup](#setup)
-    - [Requirements](#requirements)
-    - [Setup and start nevermined](#setup-and-start-nevermined)
-    - [Setup the workshop repo](#setup-the-workshop-repo)
+    - [Agenda](#agenda)
+    - [Setup](#setup)
+      - [Requirements](#requirements)
+      - [Setup and start nevermined](#setup-and-start-nevermined)
+      - [Setup the workshop repo](#setup-the-workshop-repo)
 
 ---
 
-## Agenda
+### Agenda
 
 1. Introducing Keyko
 2. Overview of Nevermined
@@ -27,9 +27,9 @@ This workshop will be based on the [Credit Card Fraud Detection Demo](https://me
    4. Running a distributed compute job over multipe datasets with Federated Learning
 4. Q & A
 
-## Setup
+### Setup
 
-### Requirements
+#### Requirements
 
 - python
 - [python virtualenv](https://virtualenv.pypa.io/en/latest/installation.html)
@@ -38,7 +38,7 @@ This workshop will be based on the [Credit Card Fraud Detection Demo](https://me
 
 We need to setup both nevermined and the environment for this workshop
 
-### Setup and start nevermined
+#### Setup and start nevermined
 
 1. Clone the [nevermined-tools repo](https://github.com/nevermined-io/tools)
 ```bash
@@ -56,9 +56,7 @@ $ ./start_nevermined.sh --events-handler --compute --latest
 $ ./scripts/wait_for_compute_api.sh
 ```
 
----
-
-### Setup the workshop repo
+#### Setup the workshop repo
 
 0. If you don't have virtualenv you can install it with
 ```bash
