@@ -79,3 +79,12 @@ $ pip install pip==20.2.4
 $ pip install .
 ```
 
+4. Copy the contract artifacts from created by nevermined-tools
+```
+$ ./scripts/wait_for_migration_and_extract_keeper_artifacts.sh
+```
+
+5. Run the tests to make sure everything is working
+```
+$ pytest -vs
+```
