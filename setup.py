@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 with open("README.md") as readme_file:
     readme = readme_file.read()
@@ -24,6 +24,7 @@ setup(
     ],
     description="🐳 Nevermined Hellodecentralization Workshop.",
     install_requires=install_requirements,
+    packages=find_packages(exclude=['tests*']),
     license="Apache Software License 2.0",
     long_description=readme,
     long_description_content_type="text/markdown",
